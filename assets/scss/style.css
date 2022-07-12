@@ -1,0 +1,170 @@
+.text-purple {
+  color: #43066e; }
+
+.btn-custom-color {
+  background-color: #43066e;
+  color: #fff; }
+
+.quran {
+  background-color: #760ac4;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+  padding: 15px; }
+  @media (max-width: 1366px) {
+    .quran {
+      font-size: 30px; } }
+  @media (max-width: 991px) {
+    .quran {
+      font-size: 26px; } }
+  @media (max-width: 767px) {
+    .quran {
+      font-size: 22px; } }
+  @media (max-width: 479px) {
+    .quran {
+      font-size: 16px; } }
+
+.text-02 {
+  font-weight: bold;
+  margin-top: -4px;
+  font-size: 20px;
+  padding: 0 25px; }
+
+.tags {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .tags a {
+    font-style: none;
+    margin: 0 8px;
+    font-weight: bold;
+    color: #760ac4; }
+
+.upload-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.main-btn {
+  margin: 20px auto 10px;
+  width: 350px;
+  padding: 20px; }
+
+.custom-btn {
+  background-color: #43066e;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #fff;
+  opacity: .8;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; }
+  .custom-btn:hover {
+    opacity: 1; }
+
+.zoom-settings span {
+  border-radius: 30%;
+  cursor: pointer; }
+
+.all-styles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  border-top: 2px solid #43066e;
+  margin-top: 20px;
+  margin-bottom: 100px; }
+
+.style-container {
+  margin-top: 20px; }
+  .style-container .download-style .spinner-border {
+    display: none; }
+  .style-container .download-style.active .spinner-border {
+    display: block; }
+  .style-container .download-style.active .fa-download {
+    display: none; }
+
+.style01 {
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .style01 > div {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden; }
+    .style01 > div img {
+      width: 100%;
+      display: block;
+      margin: auto; }
+
+.style02 {
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
+  display: flex; }
+  .style02 > div {
+    width: 360px; }
+    .style02 > div img {
+      width: 100%;
+      opacity: .5;
+      display: block;
+      margin: auto; }
+
+.style03 {
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .style03 > div {
+    width: 50%;
+    height: 50%;
+    border: 12px solid #fff;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden; }
+    .style03 > div img {
+      width: 100%;
+      display: block;
+      margin: auto; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #43066e;
+  background-color: #43066e;
+  color: #fff; }
+  footer h5 {
+    font-weight: 500; }
+  footer .contacts a {
+    opacity: .8;
+    text-decoration: none;
+    font-style: none;
+    color: #fff; }
+    footer .contacts a i {
+      font-size: 30px; }
+    footer .contacts a:hover {
+      opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
