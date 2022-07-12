@@ -79,23 +79,22 @@
   }
 }
 
-
-
 .all-styles {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   flex-wrap: wrap;
   border-top: 2px solid #43066e;
   margin-top: 20px;
   margin-bottom: 100px;
+  
 }
 
 .style-container {
   margin-top: 20px;
-
+  margin: 20px;
   .download-style {
     .spinner-border {
       display: none;
@@ -117,8 +116,8 @@
 
 
 .style01 {
-  width: 360px;
-  height: 360px;
+  width: 365px;
+  height: 365px;
   overflow: hidden;
   background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
   display: flex;
@@ -142,15 +141,15 @@
 }
 
 .style02 {
-  width: 360px;
-  height: 360px;
+  width: 365px;
+  height: 365px;
   overflow: hidden;
   background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
   display: flex;
   > div {
     // display: flex;
     // justify-content: center;
-    width: 360px;
+    width: 365px;
     img {
       width: 100%;
       opacity: .5;
@@ -162,8 +161,8 @@
 
 
 .style03 {
-  width: 360px;
-  height: 360px;
+  width: 365px;
+  height: 365px;
   overflow: hidden;
   background-image: linear-gradient(to right, #ec4491 50%, #4ec6e1 50%);
   display: flex;
